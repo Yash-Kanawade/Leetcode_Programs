@@ -9,5 +9,6 @@ public class ContainsDuplicate {
             if (nums[i] == nums[i - 1])
                 flag = true;
         System.out.println(flag);
+        System.out.println("hello");
     }
 }
