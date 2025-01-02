@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Pascal_Triangle {
     public static void main(String[] args) {
-        int numRows = 0;
+        int numRows = 5;
         List<List<Integer>> result = new ArrayList();
         for (int i = 0; i < numRows; i++) {
             List<Integer> temp = new ArrayList<>();
