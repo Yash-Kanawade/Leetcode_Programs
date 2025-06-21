@@ -1,0 +1,12 @@
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        write = 2
+        read = 2
+        if len(nums) <= 2:
+            return len(nums)
+        while read != len(nums):
+            if nums[read] != nums[write - 2]:
+                nums[write] = nums[read]
+                write += 1
+            read += 1
+        return write
